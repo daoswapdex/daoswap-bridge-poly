@@ -10,8 +10,8 @@
       <CLink :href="mainWebSiteUrl + '/#/dao'" class="item" target="_self">
         {{ $t('common.menu.dao') }}
       </CLink>
-      <CLink :href="mainWebSiteUrl + '/#/governace'" class="item" target="_self">
-        {{ $t('common.menu.governace') }}
+      <CLink :href="mainWebSiteUrl + '/#/staking-lp'" class="item" target="_self">
+        {{ $t('common.menu.node') }}
       </CLink>
       <CLink
         :to="{ name: 'home' }"
@@ -49,8 +49,8 @@
             </CLink>
           </div>
           <div class="menu-list">
-            <CLink :href="mainWebSiteUrl + '/#/governace'" class="item" target="_self">
-              {{ $t('common.menu.governace') }}
+            <CLink :href="mainWebSiteUrl + '/#/staking-lp'" class="item" target="_self">
+              {{ $t('common.menu.node') }}
             </CLink>
           </div>
           <div class="menu-list">
@@ -78,7 +78,7 @@ export default {
   data() {
     return {
       mainnet: TARGET_MAINNET,
-      mainWebSiteUrl: 'https://app.heco.daoswap.cc',
+      mainWebSiteUrl: 'https://app.daoswap.cc',
       isMobile: true,
       visible: false,
     };

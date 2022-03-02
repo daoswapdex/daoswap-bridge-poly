@@ -19,7 +19,7 @@ export default {
       swap: 'Swap',
       pool: 'Pool',
       dao: 'DAO',
-      governace: 'Governace',
+      node: 'Node',
       token: 'Bridge', // 'Token Asset',
       nft: 'NFT Asset',
     },
